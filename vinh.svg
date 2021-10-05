@@ -41,10 +41,10 @@
     </text>
 
     <path id='path3'>
-        <animate id='d3' attributeName='d' begin='d2.end' dur='3s'
+        <animate id='d3' attributeName='d' begin='d2.end' dur='3s' 
             values='m0,25 h0 ; m0,25 h360 ; m0,25 h0' keyTimes='0 ; 0.8 ; 1' />
     </path>
-    <text font-family='"monospace", monospace' fill='#25000' font-size='20'
+    <text font-family='"monospace", monospace' fill='#000' font-size='20' font-color='aqua'
         dominant-baseline='auto'
         x='50%' text-anchor='middle'>
         <textPath xlink:href='#path3'>
